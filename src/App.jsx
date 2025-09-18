@@ -33,6 +33,7 @@ function App() {
       <div className="addTask">
         <input value={newTask} onChange={handleChange} />
         <button onClick={addTask}>Add Tasks</button>
+        <button>jakis dodatkowy button testowy</button>
       </div>
 
       <div className="list">
